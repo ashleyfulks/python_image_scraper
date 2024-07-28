@@ -63,9 +63,9 @@ async def fetch_product_details(page, url):
         return None, None, None
 
 async def main():
-    input_csv = "C:/Users/afulk/OneDrive/Code/python_scraper/files/NBAHype_product_links.csv"
-    output_csv = "C:/Users/afulk/OneDrive/Code/python_scraper/files/product_images.csv"
-    products_with_no_images_csv = "C:/Users/afulk/OneDrive/Code/python_scraper/files/products_with_no_images.csv"
+    input_csv = "./files/NBAHype_product_links.csv"
+    output_csv = "./files/product_images.csv"
+    products_with_no_images_csv = "./files/products_with_no_images.csv"
     
     # Read product titles and Shopify IDs from the provided CSV file
     valid_products = set()
